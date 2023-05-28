@@ -1,0 +1,17 @@
+asgiref==3.7.2
+certifi==2023.5.7
+cffi==1.15.1
+charset-normalizer==3.1.0
+cryptography==40.0.2
+Deprecated==1.2.14
+Django==4.2.1
+django-environ==0.10.0
+django-oauth-toolkit==2.2.0
+idna==3.4
+jwcrypto==1.4.2
+oauthlib==3.2.2
+pycparser==2.21
+requests==2.31.0
+sqlparse==0.4.4
+urllib3==2.0.2
+wrapt==1.15.0
