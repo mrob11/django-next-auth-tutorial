@@ -132,6 +132,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 OAUTH2_PROVIDER = {
+    'OAUTH2_VALIDATOR_CLASS': 'auth_provider.oauth_validators.CustomOAuth2Validator',
     'OIDC_ENABLED': True,
     'OIDC_RSA_PRIVATE_KEY': env.str('OIDC_RSA_PRIVATE_KEY', multiline=True),
     'SCOPES': {
